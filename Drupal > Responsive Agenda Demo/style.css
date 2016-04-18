@@ -1,0 +1,63 @@
+/* 
+Site Name: Responsive Agenda Demo
+Cycle: Development
+Office: USA
+Year: 2016
+URL: http://www.github.io/
+*/
+
+body a, body a:link, body a:hover, body a:focus{text-decoration:none!important;}
+body {text-rendering:optimizeLegibility; background:#fbfbfb; padding-top:50px; font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';}
+ 	
+h1,h2,h3,h4,h5{font-weight:300;}
+[class*="col-"]{color:#666;}
+
+/* Vertical Offsets */
+.voffset {margin-top: 0.2em;}  .voffset0 {margin-top: 0.5em}
+.voffset1 {margin-top: 1em;}   .voffset2 {margin-top: 2em;} 
+.voffset3 {margin-top: 3em;}   .voffset4 {margin-top: 4em;} 
+.voffset5 {margin-top: 5em;}   .voffset6 {margin-top: 6em;}
+.voffset7 {margin-top: 7em;}   .voffset8 {margin-top: 8em;}
+.voffset9 {margin-top: 9em;}   .voffsetx {margin-top: 10em;}
+
+footer{margin: 50px 0;}
+
+/* Agenda Day CSS */
+
+#toggle{margin:15px 0px;}
+.agenda-track{display:inline-block; width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+
+.panel .panel-heading a {font-size:.75em;}   
+.panel .panel-heading a.session-moderator:before{content:"Moderator: "; color:#666; font-weight:700;}
+.panel .panel-title i{color:#999;}
+.session-title {margin-top:-10px;}
+
+.speaker-image{border-radius:50%; padding:.25em;}
+
+.double-track,.triple-track,.quad-track,.quint-track{background:#eee; padding:.75em 0.0em;}
+
+.first-track > .panel-heading  {background-color:#E3EEF7;}
+.second-track > .panel-heading {background-color:#E7F5E7;}
+.third-track > .panel-heading  {background-color:#FDF3E4;}
+.fourth-track > .panel-heading {background-color:#FAE5E5;}
+
+.tab-content .tab-pane{margin-top:5px; padding:10px;}
+.tab-content .tab-pane:nth-child(1) {background-color:#E3EEF7;}
+.tab-content .tab-pane:nth-child(2) {background-color:#E7F5E7;}
+.tab-content .tab-pane:nth-child(3) {background-color:#E6F6FA;}
+.tab-content .tab-pane:nth-child(4) {background-color:#FDF3E4;}
+.tab-content .tab-pane:nth-child(5) {background-color:#FAE5E5;}
+
+.nav-pills > li.active>a{color:#565656;}
+.nav-pills > li > a{color:#565656;}
+.nav-pills > li:nth-child(1)>a {background-color:#E3EEF7;}
+.nav-pills > li:nth-child(2)>a {background-color:#E7F5E7;}
+.nav-pills > li:nth-child(3)>a {background-color:#E6F6FA;}
+.nav-pills > li:nth-child(4)>a {background-color:#FDF3E4;}
+.nav-pills > li:nth-child(5)>a {background-color:#FAE5E5;}
+
+
+.first-track .active  {background-color:#E3EEF7;}
+.second-track .active {background-color:#E7F5E7;}
+.third-track .active  {background-color:#FDF3E4;}
+.fourth-track .active {background-color:#FAE5E5;}
