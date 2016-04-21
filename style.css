@@ -36,7 +36,10 @@ footer{margin: 50px 0;}
  
 /* Panel Header Speaker Citations styling */
 #agenad-day .panel .panel-heading a {font-size:.75em;}   
+#agenad-day .panel .panel-heading a.session-moderator{display:block;}
 #agenad-day .panel .panel-heading a.session-moderator:before {content:"Moderator: "; color:#666; font-weight:700;}
+#agenad-day .panel .panel-heading a.session-speaker:before {content:"Speakers: "; color:#666; font-weight:700;}
+#agenad-day .panel .panel-heading a.session-speaker + a.session-speaker:before {content:none;}
 #agenad-day .panel .panel-title i {color:#999;}
 
 /* Speaker Image Styling */
